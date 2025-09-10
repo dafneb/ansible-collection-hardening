@@ -21,6 +21,6 @@ jobs:
       contents: read
       security-events: write
       id-token: write
-    uses: dafneb/.github/.github/workflows/scorecard.yml@3f124afb6b96358a69a6a8e70a1b62904b4da4cb
+    uses: dafneb/.github/.github/workflows/scorecard.yml@3c0ec941b8e9e7692e5a8105bd64a488cf164612
     secrets:
       SCORECARD_TOKEN: ${{ secrets.SCORECARD_TOKEN }}
